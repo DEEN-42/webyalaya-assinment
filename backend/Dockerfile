@@ -20,6 +20,9 @@ FROM node:18-alpine
 
 WORKDIR /app
 
+# Install wget for health checks
+RUN apk add --no-cache wget
+
 ENV NODE_ENV=production
 
 # Copy package files and install only production dependencies
