@@ -4,6 +4,11 @@ A full-stack application that allows users to create notes and generate AI-power
 
 Built with NestJS (backend), Next.js (frontend), and Docker.
 
+## 🚀 Live Demo
+
+- **Frontend:** [https://webyalaya-assignment.vercel.app/](https://webyalaya-assignment.vercel.app/)
+- **Backend API:** Hosted on Render
+
 ## Project Overview
 
 This project was developed as part of an FSD (Full Stack Development) Intern Assignment.
@@ -222,6 +227,10 @@ docker compose down -v
    - View the generated summary with character count
 
 ## Deployment
+
+**Live Application:**
+- Frontend: [https://webyalaya-assignment.vercel.app/](https://webyalaya-assignment.vercel.app/)
+- Backend: Hosted on Render
 
 For detailed deployment instructions to platforms like Vercel, Netlify, Render, Railway, or Heroku, see **[DEPLOYMENT.md](./DEPLOYMENT.md)**.
 
