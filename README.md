@@ -221,14 +221,6 @@ docker compose down -v
    - Click the "Get AI Summary" button on any note
    - View the generated summary with character count
 
-## Time Breakdown
-
-- Backend API Development: ~5 hours
-- Frontend Development: ~5 hours
-- Dockerization: ~2 hours
-- Documentation & Testing: ~2 hours
-
-**Total Estimated Time**: ~14 hours
 
 ## Environment Variables
 
