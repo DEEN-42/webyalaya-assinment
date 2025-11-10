@@ -6,9 +6,11 @@ async function bootstrap() {
   
   // Enable CORS for frontend communication
   // Support multiple origins: local development and production
-  const allowedOrigins = process.env.CORS_ORIGIN 
-    ? process.env.CORS_ORIGIN.split(',')
-    : ['http://localhost:3000', 'http://frontend:3000'];
+  const allowedOrigins = [
+    'http://localhost:3000',
+    'http://frontend:3000',
+    'https://webyalaya-assignment.vercel.app'
+  ];
   
   app.enableCors({
     origin: allowedOrigins,
