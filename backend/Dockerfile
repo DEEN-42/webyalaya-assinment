@@ -4,7 +4,7 @@ FROM node:18-alpine AS builder
 WORKDIR /app
 
 # Copy package files (assumes build context is backend/)
-COPY backend/package*.json ./
+COPY package*.json ./
 
 # Install dependencies
 RUN npm ci
@@ -23,7 +23,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 
 # Copy package files and install only production dependencies
-COPY backend/package*.json ./
+COPY package*.json ./
 RUN npm ci --omit=dev
 
 # Copy built application from builder stage
